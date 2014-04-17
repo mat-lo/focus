@@ -1,19 +1,18 @@
 {
-   "background": {
-      "scripts": [ "background.js" ]
-   },
-   "description": "Focus helps you concentrate while working using the browser. It closes entertainment tabs as soon as they are opened. It turns off Twitter, Facebook, Reddit and 4chan",
-   "icons": {
-      "128": "icon-128.png",
-      "48": "icon-48.png"
-   },
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZcigLmhd0tIAn3rjjFEqSlx2IZYoltq1CoMD/Q5u9yiskHMENhyMEigPDEa1vAJRXCQ22H0SUq/tdozvBIRpQvcuxZiEAWlaPzmT2oEGgG+9NAAkXj9SM9afkmAGrW4l58EuWQYwzb5Hzh3XoCaGUb6ZICMv7By/Nmn+9nQVg+wIDAQAB",
-   "manifest_version": 3,
-   "name": "Focus",
-   "page_action": {
-      "default_icon": "icon-19.png"
-   },
-   "permissions": [ "tabs", "http://*/*" ],
-   "update_url": "http://clients2.google.com/service/update2/crx",
-   "version": "1.0"
+  "name": "Focus",
+  "version": "1.1",
+  "description": "Increase your concentration while working using the browser. Focus closes entertainment tabs as soon as they are opened",
+  "background": { "scripts": ["background.js"] },
+  "page_action": {      
+    "default_icon" : "icon-19.png"
+  },  
+  "permissions" : [
+    "tabs",
+    "http://*/*"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
 }
