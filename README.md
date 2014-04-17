@@ -1,4 +1,4 @@
 focus
 =====
 
-chrome extension that helps to concentrate
+chrome extension to help concentration
